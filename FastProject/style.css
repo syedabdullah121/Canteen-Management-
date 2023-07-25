@@ -1,0 +1,43 @@
+.navbar{
+    padding-right:20px ;
+    padding-left: 20px;
+    box-shadow: 0px  5px lightgray;
+}
+.nav_links ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav_links ul li{
+    list-style: none;
+    margin:20px;
+    font-weight: bold;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav_links a:hover {
+
+    color: black;
+}
+
+.logo img{
+    height: 75px;
+    width: 150px;
+}
+
+.carousel{
+    margin-top: 5px;
+}
+.carousel-item{
+    height: 80vh;
+}
+
+.carousel-item img{
+    height: 80vh;
+    object-fit: fill;
+}
